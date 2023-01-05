@@ -1,4 +1,4 @@
-//즉시 실행함수
+//즉시 실행함수 ;(익명함수())
 //IIFE, Immediately-Invoked Function Expresstion : 즉시 실행하는 함수표현
 
 const a = 7;
@@ -18,3 +18,13 @@ double();
 (function () {
   console.log('익명함수생성 ( ()): ',a * 2)
 }());
+
+
+/**
+ * 즉시실행함수 패턴: 레거시함수 때 참고
+ */
+;(() => {})()        // (F)()
+;(function () {})()  // (F)()
+;(function () {}())  // (F())
+;!function () {}()   // !F()
+;+function () {}()   // +F()
