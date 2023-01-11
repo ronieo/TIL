@@ -13,7 +13,7 @@ const userContact = {
 }
 
 //Object라는 명령을 사용했다고 생각하면됨       
-//                    대상객체:target, 출처객체:source
+//                    대상객체:target, 출처객체:source(출처는 여러개가 될 수 있음)
 // 소스 부분의 속성들을 타겟에 복사 해 넣어서 출력한다.
 const target = Object.assign({}, userAge, userContact); // 메모리의 주소를 찾아서 사용: 참조형데이터 라고함
 //                           {}: userAge가 더이상대상객체가 아닌 출처 객체가됨 + {}는 새로운 객체로 탄생

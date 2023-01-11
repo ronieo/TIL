@@ -50,33 +50,3 @@ console.log(users) // [ Lewis객체, Amy객체, Neo객체 ]>> 값이 크면 뒤�
 
 // users.sort((a, b) => b.age - a.age)
 // console.log(users) // [ Neo객체, Amy객체, Lewis객체 ]
-
-
-
-//4. .splice()
-// 대상 배열에 요소를 추가하거나 삭제하거나 교체합니다.
-// 대상 배열 원본이 변경됩니다.
-
-// 요소 추가
-const array2 = ['A', 'B', 'C']
-arr.splice(2, 0, 'X')
-
-console.log(array2) // ['A', 'B', 'X', 'C']
-
-//요소 삭제
-const array3 = ['A', 'B', 'C']
-arr.splice(1, 1)
-
-console.log(arr) // ['A', 'C']
-
-//요소 교체
-const array4 = ['A', 'B', 'C']
-arr.splice(1, 1, 'X')
-
-console.log(arr) // ['A', 'X', 'C']
-
-//요소 추가 및 삭제
-const array5 = ['A', 'B', 'C']
-arr.splice(0, 0, 'X', 'Y', 'Z')
-
-console.log(arr) // ['X', 'Y', 'Z', 'A', 'B', 'C']
