@@ -64,7 +64,6 @@ console.log(strri) // 'Hello world!'
 
 //7. .split()
 // 대상 문자를 주어진 구분자로 나눠 '배열'로 반환합니다.
-
 const strrii = 'Apple, Banana, Cherry'
 
 console.log(strrii.split(', ')) // ['Apple', 'Banana', 'Cherry']
@@ -75,7 +74,6 @@ console.log(strriin.split('').reverse().join('')) // elppA
 //8. .startsWith()
 // 대상 문자가 주어진 문자로 시작하는지 여부를 반환합니다.
 // 탐색할 시작 위치를 지정할 수 있습니다.
-
 const strriinn = 'Hello world!'
 
 console.log(strriinn.startsWith('Hello', 0)) // true: 두번째인수는 생략가능하고 기본값은 0
@@ -85,7 +83,6 @@ console.log(strriinn.startsWith('world', 6)) // true
 
 //10. .trim()⭐
 // 대상 문자의 앞뒤 공백 문자(space, tab 등)를 제거한 새로운 문자를 반환합니다.
-
 const stringg = '   Hello world!  '
 
 console.log(stringg.trim()) // 'Hello world!!'
